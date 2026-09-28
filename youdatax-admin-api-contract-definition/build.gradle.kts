@@ -10,7 +10,7 @@
  *  Contributors:
  *       Microsoft Corporation - initial API and implementation
  *       Bayerische Motoren Werke Aktiengesellschaft (BMW AG)
- *
+ * \extensions\control-plane\api\management-api\contract-definition-api
  */
 plugins {
     `java-library`
