@@ -9,6 +9,7 @@
  *
  * Contributors:
  *   ZF Friedrichshafen AG - Initial API and Implementation
+   \extensions\control-plane\api\management-api\contract-negotiation-api
  */
 plugins {
     `java-library`
