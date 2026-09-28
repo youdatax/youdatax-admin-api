@@ -9,7 +9,7 @@
  *
  *  Contributors:
  *       Microsoft Corporation - initial API and implementation
- *
+ * \extensions\control-plane\api\management-api\transfer-process-api
  */
 plugins {
     `java-library`
