@@ -10,7 +10,7 @@
  *  Contributors:
  *       Microsoft Corporation - initial API and implementation
  *       Bayerische Motoren Werke Aktiengesellschaft (BMW AG) - add functionalities
- *
+ * \extensions\control-plane\api\management-api\contract-agreement-api
  */
 
 
