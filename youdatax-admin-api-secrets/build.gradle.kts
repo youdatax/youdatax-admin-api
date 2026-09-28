@@ -9,7 +9,7 @@
  *
  * Contributors:
  *    Amadeus - Initial API and Implementation
- *
+ * \extensions\control-plane\api\management-api\secrets-api
  */
 
 

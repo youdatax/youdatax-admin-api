@@ -1,0 +1,75 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.youdatax.admin</groupId>
+  <artifactId>youdatax-admin-api-secrets</artifactId>
+  <version>0.0.3-SNAPSHOT</version>
+  <name>yospace-ext-control-plane-management-api-secrets</name>
+  <description>yospace-ext-control-plane-management-api-secrets</description>
+  
+  <dependencies>
+<!--    api(project(":spi:common:validator-spi"))-->
+      <dependency>
+        <groupId>com.yospace.core</groupId>
+        <artifactId>yospace-core-spi-validator</artifactId> 
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency> 
+<!--    api(project(":spi:common:web-spi"))-->
+      <dependency>
+        <groupId>com.yospace.core</groupId>
+        <artifactId>yospace-core-spi-web</artifactId> 
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency> 
+<!--    api(project(":spi:control-plane:control-plane-spi"))-->
+      <dependency>
+        <groupId>com.yospace.controlplane</groupId>
+        <artifactId>yospace-control-plane-spi</artifactId> 
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency> 
+<!--    implementation(project(":core:common:lib:api-lib"))-->
+      <dependency>
+        <groupId>com.yospace.core</groupId>
+        <artifactId>yospace-core-lib-api</artifactId>  
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency> 
+<!--    implementation(project(":core:common:lib:transform-lib"))-->
+      <dependency>
+        <groupId>com.yospace.core</groupId>
+        <artifactId>yospace-core-lib-transform</artifactId> 
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency> 
+<!--    implementation(project(":core:common:lib:validator-lib"))-->
+      <dependency>
+        <groupId>com.yospace.core</groupId>
+        <artifactId>yospace-core-lib-validator</artifactId> 
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency> 
+<!--    implementation(project(":extensions:common:api:lib:management-api-lib"))-->
+      <dependency>
+        <groupId>org.youdatax.admin</groupId>
+        <artifactId>youdatax-admin-lib</artifactId> 
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>
+<!--    implementation(project(":extensions:common:http:lib:jersey-providers-lib"))-->
+      <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>jersey-providers-lib</artifactId> 
+        <version>0.18.0</version>
+      </dependency> 
+<!--    implementation(libs.jakarta.rsApi)
+jakarta-rsApi = { module = "jakarta.ws.rs:jakarta.ws.rs-api", version.ref = "rsApi" }-->
+      <dependency>
+        <groupId>jakarta.ws.rs</groupId>
+        <artifactId>jakarta.ws.rs-api</artifactId> 
+        <version>4.0.0</version>
+      </dependency> 
+
+<!--    testImplementation(testFixtures(project(":core:common:lib:json-ld-lib")))
+    testImplementation(project(":core:control-plane:control-plane-core"))
+    testImplementation(project(":core:data-plane-selector:data-plane-selector-core"))
+    testImplementation(project(":extensions:common:http"))
+    testImplementation(project(":core:common:junit"))
+    testImplementation(testFixtures(project(":extensions:common:http:jersey-core")))
+    testImplementation(libs.restAssured)
+    testImplementation(libs.awaitility)  -->
+  </dependencies>
+</project>
