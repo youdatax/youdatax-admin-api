@@ -10,6 +10,7 @@
  * Contributors:
  *    ZF Friedrichshafen AG - Initial API and Implementation
  *    Bayerische Motoren Werke Aktiengesellschaft (BMW AG)
+ *  \extensions\control-plane\api\management-api\asset-api
  */
 
 
