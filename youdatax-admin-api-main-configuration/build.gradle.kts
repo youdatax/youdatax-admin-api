@@ -10,7 +10,7 @@
  *  Contributors:
  *       Microsoft Corporation - initial API and implementation
  *       ZF Friedrichshafen AG - Remove token-based default auth mechanism
- *
+ * \extensions\common\api\management-api-configuration
  */
 
 plugins {
