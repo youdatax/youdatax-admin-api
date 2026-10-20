@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.admin</groupId>
   <artifactId>youdatax-admin-api-asset</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.3.0</version>
   <name>yospace-ext-control-plane-management-api-asset</name>
   <description>yospace-ext-control-plane-management-api-asset</description>
  
@@ -65,7 +65,7 @@
       <dependency>
         <groupId>com.yospace.admin</groupId>
         <artifactId>yospace-admin-lib</artifactId> 
-        <version>0.0.3-SNAPSHOT</version>
+        <version>0.0.3.0</version>
       </dependency>     
 <!--    implementation(project(":extensions:common:http:lib:jersey-providers-lib"))-->
       <dependency>

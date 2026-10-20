@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.yospace.admin</groupId>
+  <groupId>org.youdatax.admin</groupId>
   <artifactId>yospace-admin-api-main-schema-validator</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.3.0</version>
   <name>yospace-ext-common-management-api-schema-validator</name>
   <description>yospace-ext-common-management-api-schema-validator</description>
   
@@ -59,7 +59,7 @@
       <dependency>
         <groupId>com.yospace.admin</groupId>
         <artifactId>yospace-admin-lib</artifactId> 
-        <version>0.0.3-SNAPSHOT</version>
+        <version>0.0.3.0</version>
       </dependency>  
 <!--    implementation(libs.jsonschema)
 jsonschema = { module = "com.networknt:json-schema-validator", version = "2.0.0" }-->

@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.admin</groupId>
   <artifactId>youdatax-admin-api-contract-agreement</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.3.0</version>
   <name>yospace-ext-control-plane-management-api-contract-agreement</name>
   <description>yospace-ext-control-plane-management-api-contract-agreement</description>
   
@@ -23,7 +23,7 @@
       <dependency>
         <groupId>org.youdatax.admin</groupId>
         <artifactId>youdatax-admin-lib</artifactId> 
-        <version>0.0.3-SNAPSHOT</version>
+        <version>0.0.3.0</version>
       </dependency> 
 <!--    implementation(project(":extensions:common:http:lib:jersey-providers-lib"))-->
       <dependency>

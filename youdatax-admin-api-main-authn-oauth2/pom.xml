@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.admin</groupId>
   <artifactId>youdatax-admin-api-main-oauth2-authentication</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.3.0</version>
   <name>yospace-ext-common-management-api-configuration</name>
   <description>yospace-ext-common-management-api-configuration</description>
   
