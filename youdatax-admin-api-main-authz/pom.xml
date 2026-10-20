@@ -1,0 +1,64 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.yospace.admin</groupId>
+  <artifactId>yospace-admin-api-main-authorization</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>yospace-ext-common-management-api-configuration</name>
+  <description>yospace-ext-common-management-api-configuration</description>
+  
+  <dependencies>
+<!--  
+    api(project(":spi:common:auth-spi"))
+    api(libs.jakarta.rsApi)
+    implementation(project(":extensions:common:auth:auth-authorization-oauth2-lib"))
+    implementation(libs.jakarta.annotation)  
+-->  
+<!--    api(project(":spi:common:auth-spi"))-->
+      <dependency>
+        <groupId>com.yospace.core</groupId>
+        <artifactId>yospace-core-spi-auth</artifactId> 
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>
+<!--    api(libs.jakarta.rsApi)
+jakarta-rsApi = { module = "jakarta.ws.rs:jakarta.ws.rs-api", version.ref = "rsApi" }-->
+      <dependency>
+        <groupId>jakarta.ws.rs</groupId>
+        <artifactId>jakarta.ws.rs-api</artifactId> 
+        <version>4.0.0</version>
+      </dependency>
+<!--    implementation(project(":extensions:common:auth:auth-authorization-oauth2-lib"))-->
+      <dependency>
+        <groupId>com.yospace.ext</groupId>
+        <artifactId>yospace-ext-auth-lib-authz-oauth2</artifactId>  
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>
+<!--    implementation(libs.jakarta.annotation)  
+jakarta-annotation = { module = "jakarta.annotation:jakarta.annotation-api", version.ref = "jakarta-annotation" }-->
+      <dependency>
+        <groupId>jakarta.annotation</groupId>
+        <artifactId>jakarta.annotation-api</artifactId> 
+        <version>3.0.0</version>
+      </dependency>
+<!--    testImplementation(project(":core:common:junit"))-->
+      <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>junit</artifactId>
+        <version>0.18.0</version>
+        <scope>test</scope>
+      </dependency>   
+<!--    testImplementation(project(":core:common:lib:json-ld-lib"))-->
+      <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>json-ld-lib</artifactId>
+        <version>0.18.0</version>
+        <scope>test</scope>
+      </dependency>
+<!--    testImplementation(project(":extensions:common:json-ld"))-->
+      <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>json-ld</artifactId>
+        <version>0.18.0</version>
+        <scope>test</scope>
+      </dependency>
+   </dependencies> 
+</project>
