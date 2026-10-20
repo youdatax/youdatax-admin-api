@@ -9,7 +9,7 @@
  *
  * Contributors:
  *    Amadeus - Initial API and Implementation
- *
+ * \extensions\common\api\version-api
  */
 
 
