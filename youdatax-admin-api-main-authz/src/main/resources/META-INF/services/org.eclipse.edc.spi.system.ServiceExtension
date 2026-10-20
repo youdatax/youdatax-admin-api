@@ -12,4 +12,4 @@
 #
 #
 
-org.eclipse.edc.connector.api.management.authz.ManagementApiAuthorizationExtension
+org.eclipse.edc.connector.api.management.authn.ManagementApiOauth2AuthenticationExtension
